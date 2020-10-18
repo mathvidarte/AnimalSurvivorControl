@@ -41,7 +41,7 @@ public class TCPSingleton extends Thread {
             while(true) {
                 System.out.println("esperando conexion");
 
-                socket = new Socket (""+codigo, 5000);
+                socket = new Socket (codigo, 5000);
 
 
             }
